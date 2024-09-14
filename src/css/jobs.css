@@ -1,0 +1,78 @@
+/* Job Listings Page Styles */
+
+.jobs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jobs-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .job-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .job-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-details {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .job-company {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .job-salary {
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  .job-postedAt {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #777;
+  }
+  
+  .apply-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #218838;
+  }
+  
